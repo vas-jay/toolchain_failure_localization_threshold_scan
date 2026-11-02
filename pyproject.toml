@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vas-jay-kernelopt_jd296"
+name = "vas-jay-toolchain_failure_localization_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://vas-jay.github.io"
-Repository = "https://github.com/vas-jay/kernelopt_jd296"
-Issues = "https://github.com/vas-jay/kernelopt_jd296/issues"
+Repository = "https://github.com/vas-jay/toolchain_failure_localization_threshold_scan"
+Issues = "https://github.com/vas-jay/toolchain_failure_localization_threshold_scan/issues"
 
 [project.scripts]
-kernelopt_jd296 = "kernelopt_jd296:main"
+toolchain_failure_localization_threshold_scan = "toolchain_failure_localization_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["kernelopt_jd296"]
+py-modules = ["toolchain_failure_localization_threshold_scan"]
